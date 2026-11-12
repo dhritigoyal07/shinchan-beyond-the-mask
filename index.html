@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHINCHAN: BEYOND THE MASK</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">★</span>
+            MASK-OFF LAB
+        </div>
+
+        <div class="nav-tag">
+            EXPERIMENT NO. 001
+        </div>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <main class="hero">
+
+        <!-- Decorative stickers -->
+        <div class="sticker sticker-star">✦</div>
+        <div class="sticker sticker-bang">BOOM!</div>
+        <div class="sticker sticker-smile">☺</div>
+        <div class="sticker sticker-arrow">↗</div>
+
+
+        <!-- Left content -->
+        <section class="hero-content">
+
+            <div class="top-label">
+                <span class="live-dot"></span>
+                A HIGHLY QUESTIONABLE EXPERIMENT
+            </div>
+
+            <h1>
+                THINK YOU
+                <span>KNOW</span>
+                YOURSELF?
+            </h1>
+
+            <div class="hero-highlight">
+                THINK AGAIN.
+            </div>
+
+            <p class="hero-description">
+                Welcome to the most ridiculous psychological
+                experiment you'll ever participate in.
+
+                No boring questions. No predictable answers.
+                Just YOU, CHAOS and some questionable decisions.
+            </p>
+
+            <div class="warning-box">
+                <span>⚠</span>
+
+                <p>
+                    WARNING: Side effects may include exposed
+                    personalities and questionable life decisions.
+                </p>
+            </div>
+
+            <button class="start-button" id="startButton">
+                START THE CHAOS
+                <span>➜</span>
+            </button>
+
+            <div class="hero-footer">
+                <span>● 100% CHAOS</span>
+                <span>● 0% BORING QUESTIONS</span>
+            </div>
+
+        </section>
+
+
+        <!-- Right visual -->
+        <section class="hero-visual">
+
+            <div class="comic-circle"></div>
+
+            <div class="character-card">
+
+                <div class="character-label">
+                    THE SUBJECT HAS ARRIVED
+                </div>
+
+                <!-- Temporary character placeholder -->
+                <div class="character-placeholder">
+                    <img
+                        src="assets/images/shinchan-love.gif"
+                        alt="Shinchan making a funny love expression"
+                        class="character-gif"
+                    >
+                    <div class="character-name">SHINCHAN</div>
+                    <div class="character-caption">
+                        PROFESSIONAL CHAOS CREATOR
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="speech-bubble">
+                HEHEHE...
+                <small>YOU'RE NEXT!</small>
+            </div>
+
+        </section>
+
+    </main>
+
+
+<!-- ASSESSMENT INTRODUCTION -->
+<section class="intro-screen" id="introScreen">
+
+    <div class="intro-container">
+
+        <div class="intro-label">
+            ⚠ SUBJECT BRIEFING // CLASSIFIED
+        </div>
+
+        <h2>
+            SO YOU THINK
+            <span>YOU'RE READY?</span>
+        </h2>
+
+        <p class="intro-description">
+            Welcome, test subject.
+
+            Your personality is about to be put through
+            a series of highly questionable situations.
+        </p>
+
+        <div class="rules-grid">
+
+            <div class="rule-card">
+                <div class="rule-icon">⏱️</div>
+                <h3>THE CLOCK IS TICKING</h3>
+                <p>
+                    You'll have limited time to make
+                    decisions. Choose carefully.
+                </p>
+            </div>
+
+            <div class="rule-card">
+                <div class="rule-icon">🧠</div>
+                <h3>NO PERFECT ANSWERS</h3>
+                <p>
+                    Every decision has trade-offs.
+                    There isn't always a right answer.
+                </p>
+            </div>
+
+            <div class="rule-card">
+                <div class="rule-icon">🔬</div>
+                <h3>WE'RE TAKING NOTES</h3>
+                <p>
+                    Your choices and response patterns
+                    will contribute to your final profile.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="intro-warning">
+            <span>🚨</span>
+            <p>
+                Once the experiment begins, there's no
+                changing your previous answers.
+                Think before you click!
+            </p>
+        </div>
+
+        <button class="begin-button" id="beginButton">
+            BEGIN EXPERIMENT
+            <span>➜</span>
+        </button>
+
+        <p class="intro-footer">
+            THE LABORATORY IS WATCHING. PROBABLY.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ASSESSMENT SCREEN -->
+<section class="assessment-screen" id="assessmentScreen">
+
+    <div class="assessment-container">
+
+        <div class="assessment-topbar">
+            <span class="live-badge">● LIVE EXPERIMENT</span>
+            <div class="timer-box">
+                ⏱ <span id="timer">25</span>s
+            </div>
+        </div>
+
+        <div class="progress-info">
+            <span id="scenarioNumber">SCENARIO 01 / 10</span>
+            <span id="progressPercent">10% COMPLETE</span>
+        </div>
+
+        <div class="progress-track">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="scenario-card">
+
+            <div class="scenario-label">
+                CASE FILE // CLASSIFIED
+            </div>
+
+            <h2 id="scenarioTitle">
+                THE GROUP PROJECT DISASTER
+            </h2>
+
+            <div class="scenario-illustration">
+                <img
+                    src="assets/images/shinchan-love.gif"
+                    alt="Shinchan reacting to the experiment"
+                >
+            </div>
+
+            <p id="scenarioDescription">
+                Your team has submitted its project.
+                You suddenly notice a major mistake
+                in your contribution.
+            </p>
+
+            <h3 id="scenarioQuestion">
+                WHAT DO YOU DO?
+            </h3>
+
+            <div class="answer-options" id="answerOptions">
+                <!-- Options generated by JavaScript -->
+            </div>
+
+            <p class="assessment-hint" id="assessmentHint">
+                CHOOSE WISELY. THE LAB IS WATCHING.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- BOTTOM SECTION -->
+    <section class="bottom-strip">
+
+        <div>🧠 PERSONALITY DETECTION</div>
+        <div>💥 EMOTIONAL DAMAGE</div>
+        <div>🎯 QUESTIONABLE DECISIONS</div>
+        <div>🔬 SCIENCE-ISH STUFF</div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="js/assessment.js"></script>
+    <script src="js/scoring.js"></script>
+    <script src="js/results.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
