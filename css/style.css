@@ -731,6 +731,7 @@ body {
     background: #FFE45C;
 }
 
+
 .scenario-illustration img {
     display: block;
     width: 100%;
@@ -738,7 +739,9 @@ body {
     object-fit: contain;
     object-position: center;
     animation: none;
+    max-width: 100%;
 }
+
 
 .scenario-illustration img:hover {
     transform: scale(1.06);
